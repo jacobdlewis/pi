@@ -1,0 +1,103 @@
+.container {
+  margin: 0 200px; }
+
+.breadcrumb {
+  margin-top: 30px;
+  margin-bottom: 0; }
+  .breadcrumb li > a {
+    color: black; }
+  .breadcrumb .active {
+    font-weight: bold; }
+
+.about-me {
+  margin-bottom: 20px; }
+  .about-me h2 {
+    text-align: right; }
+  .about-me .about-me-content {
+    text-align: right;
+    font-weight: 400; }
+  .about-me .profile_image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%; }
+  .about-me p {
+    font-size: 22px;
+    font-weight: default;
+    margin-top: 80px; }
+
+.bit-blaster p {
+  font-size: 22px;
+  margin-top: 80px; }
+.bit-blaster img {
+  size: 400px;
+  width: 400px;
+  border-radius: 5px;
+  margin-top: 20px; }
+
+.skills .jumbotron {
+  text-align: center;
+  margin-top: 40px !important;
+  margin-bottom: 0 !important; }
+.skills h2 {
+  text-align: right; }
+.skills ul {
+  display: block;
+  list-style-type: none; }
+.skills li {
+  font-size: 20px;
+  font-weight: bold; }
+
+.contact ul {
+  list-style-type: none;
+  text-align: center; }
+.contact li {
+  display: inline; }
+.contact i {
+  height: 150px;
+  width: 150px; }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0; }
+  .about-me h2 {
+    text-align: center; }
+  .about-me img {
+    max-height: 150px;
+    max-width: 150px;
+    margin-top: 20px; }
+  .about-me p {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify; }
+  .bit-blaster h2 {
+    text-align: center;
+    margin-bottom: 10px; }
+  .bit-blaster img {
+    max-height: 150px;
+    max-width: 150px;
+    margin-right: 20%; }
+  .bit-blaster p {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify; }
+  .skills #skills {
+    text-align: center; }
+  .skills h2 {
+    text-align: center;
+    margin-bottom: 10px; }
+  .skills ul {
+    padding: 0; }
+    .skills ul li {
+      text-align: center; }
+  .skills .jumbotron {
+    margin-top: 10px !important;
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: default; }
+  .contact ul {
+    padding: 0; }
+  .breadcrumb {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
